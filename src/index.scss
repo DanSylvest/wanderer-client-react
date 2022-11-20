@@ -1,3 +1,8 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
 
@@ -9,4 +14,19 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.comp {
+  width: auto;
+  height: 123px;
+
+  & .head {
+    height: 123px;
+  }
+
+  @media (max-width: 870px) {
+    & .head {
+      height: 600px;
+    }
+  }
 }
