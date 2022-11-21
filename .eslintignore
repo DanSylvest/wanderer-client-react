@@ -4,3 +4,5 @@ build/*
 bin/*
 node_modules/*
 !.eslintrc.js
+scripts/*
+config/*
