@@ -1,6 +1,11 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
+}
+
+iframe#webpack-dev-server-client-overlay { // it will disable errors screen in dev mode
+  display: none;
 }
 
 body {
