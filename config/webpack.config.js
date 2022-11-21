@@ -15,6 +15,8 @@ const TerserPlugin = require('terser-webpack-plugin');
 const webpack = require('webpack');
 const { WebpackManifestPlugin } = require('webpack-manifest-plugin');
 const WorkboxWebpackPlugin = require('workbox-webpack-plugin');
+const darkTheme = require('@ant-design/dark-theme');
+// import darkTheme from '@ant-design/dark-theme';
 
 const fs = require('fs');
 const path = require('path');
