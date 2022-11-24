@@ -2,14 +2,14 @@ module.exports = {
   extends: ['stylelint-config-standard-scss', 'stylelint-config-rational-order', 'stylelint-config-prettier'],
   plugins: ['stylelint-scss', 'stylelint-prettier', 'stylelint-order', 'stylelint-config-rational-order/plugin'],
   rules: {
-    'order/properties-order': [true, { severity: 'warning' }],
+    'order/properties-order': [],
     'prettier/prettier': true,
     'declaration-no-important': true,
     'declaration-empty-line-before': null,
     'no-descending-specificity': null,
     'value-no-vendor-prefix': null,
     'block-no-empty': null,
-    'no-empty-source': true,
+    'no-empty-source': null,
     'font-family-no-missing-generic-family-keyword': [true, { ignoreFontFamilies: ['Helvetica Neue'] }],
     'custom-property-pattern': [
       '^[A-Za-z][a-z0-9-]*$',

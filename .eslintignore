@@ -6,3 +6,5 @@ node_modules/*
 !.eslintrc.js
 scripts/*
 config/*
+*/**/*.test.tsx
+*/**/*.d.ts
